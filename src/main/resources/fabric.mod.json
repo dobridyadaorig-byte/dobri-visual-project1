@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dobri_visual",
+  "version": "${version}",
+  "name": "Dobri Visual",
+  "description": "Client visual mod: FPS, coordinates and dark menu on Right Shift.",
+  "authors": ["Dobri"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.dobri.visual.DobriVisualClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
