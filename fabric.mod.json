@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dobri_visual",
+  "version": "${version}",
+  "name": "Dobri Visual",
+  "description": "Клиентский визуальный мод: FPS, координаты и тёмное меню на Right Shift.",
+  "authors": ["Dobri"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.dobri.visual.DobriVisualClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
